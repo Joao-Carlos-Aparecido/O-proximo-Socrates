@@ -1,0 +1,17 @@
+{
+  "name": "o-proximo-socrates",
+  "version": "1.0.0",
+  "description": "Um site de ideia desde antes do nosso calendário até o nosso futuro mais distantes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite", 
+    "build": "vite build", 
+    "preview": "vite preview" 
+  },
+  "author": "joao-carlos",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^6.0.7"
+  }
+}
