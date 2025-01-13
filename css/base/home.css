@@ -63,6 +63,7 @@ nav > section > article > ul {
     position: absolute;
     padding: 0.5vw;
     list-style-type: none;
+    z-index: 2;
     
 }
 
