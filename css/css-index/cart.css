@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+#cart {
+    background-color: #121110;
+    width: 100vw;
+}
+
+#h1-cart {
+    width: 100vw;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#h1-cart > h1 {
+    font-family: "MedievalSharp", serif;
+    font-size: 3.6vw;
+    font-weight: 500;
+    color: #cfc7bc;
+    position: absolute;
+}
+
+#section-cart {
+    margin-top: 1vw;
+    display: flex;
+    gap: 4vw;
+    width: 100vw;
+    justify-content: center;
+}
+
+.cart {
+    width: 20vw;
+    height: 20vw;
+    box-sizing: border-box;
+    border: 1vw solid #cfc7bc;
+    border-radius: 1.5vw;
+}
+
+.cart > figure > article {
+    cursor: pointer;
+    position: relative;
+    bottom: 2vw;
+    width: 18vw;
+    height: 5vw;
+    background-color: rgba(0, 0, 0, 0.832);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.cart > figure > article > p {
+    color: white;
+    font-family: "MedievalSharp", serif;
+    font-size: 1.6vw;
+    font-weight: 500;
+}
+
+#cart1 > figure > img {
+    width: 28vw;
+    position: relative;
+    left: -4.5vw;
+    top: 2vw;
+}
+
+#article-texto1:hover {
+    position: relative;
+    height: 7.3vw;
+    top: -4.8vw;
+}
+
+#article-texto1 > ul {
+    display: none;
+    margin-bottom: vw;
+}
+
+#article-texto1 > ul > li {
+    color: white;
+    font-family: "Cairo", serif;
+    font-size: 1.2vw;
+    list-style: none;
+    
+}
+
+
+
+#article-texto1:hover > p {
+    margin-bottom: 0vw;
+    text-align: center;
+    width: 18vw;
+    height: 8vw;
+    background-color: rgba(0, 0, 0, 0.832);
+}
+
+#article-texto1:hover > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 18vw;
+    height: 14vw;
+    background-color: rgba(0, 0, 0, 0.314);
+}
+
+#cart2 > figure > img {
+    width: 18vw;
+    position: relative;
+    top: 2.5vw;
+}
+
+
+
+#article-texto2:hover {
+    position: relative;
+    height: 7.3vw;
+    top: -4.8vw;
+}
+
+#article-texto2 > ul {
+    display: none;
+    margin-bottom: vw;
+}
+
+#article-texto2 > ul > li {
+    color: white;
+    font-family: "Cairo", serif;
+    font-size: 1.2vw;
+    list-style: none;
+    
+}
+
+
+
+#article-texto2:hover > p {
+    margin-bottom: 0vw;
+    text-align: center;
+    width: 18vw;
+    height: 8vw;
+    background-color: rgba(0, 0, 0, 0.832);
+}
+
+#article-texto2:hover > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 18vw;
+    height: 14vw;
+    background-color: rgba(0, 0, 0, 0.314);
+}
+
+
+#cart3 > figure > img {
+    width: 25vw;
+    position: relative;
+    left: -3.5vw;
+    top: 4vw;
+}
+
+#article-texto3:hover {
+    position: relative;
+    height: 6vw;
+    top: -2vw;
+}
+
+#article-texto3 > ul {
+    display: none;
+    margin-bottom: 1.8vw;
+}
+
+#article-texto3 > ul > li {
+    color: white;
+    font-family: "Cairo", serif;
+    font-size: 1.2vw;
+    list-style: none;
+    
+}
+
+
+
+#article-texto3:hover > p {
+    margin-bottom: 1vw;
+    text-align: center;
+    width: 18vw;
+    height: 7vw;
+    background-color: rgba(0, 0, 0, 0.832);
+}
+
+#article-texto3:hover > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 18vw;
+    height: 5vw;
+    background-color: rgba(0, 0, 0, 0.247);
+}
+
+
+
+#cart3 > figure > article {
+    position: relative;
+    top: -1vw;
+}
+
+#cart4 > figure > img {
+    width: 25vw;
+    position: relative;
+    left: -2vw;
+    top: 3vw;
+}
+
+
+
+#article-texto4:hover {
+    position: relative;
+    height: 7.5vw;
+    top: -4.8vw;
+}
+
+#article-texto4 > ul {
+    display: none;
+    margin-bottom: vw;
+}
+
+#article-texto4 > ul > li {
+    color: white;
+    font-family: "Cairo", serif;
+    font-size: 1.2vw;
+    list-style: none;
+    
+}
+
+
+
+#article-texto4:hover > p {
+    margin-bottom: 0vw;
+    text-align: center;
+    width: 18vw;
+    height: 8vw;
+    background-color: rgba(0, 0, 0, 0.432);
+}
+
+#article-texto4:hover > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 18vw;
+    height: 14vw;
+    background-color: rgba(0, 0, 0, 0.314);
+}

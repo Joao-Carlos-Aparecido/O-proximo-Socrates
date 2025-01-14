@@ -58,7 +58,7 @@ nav > section > article > p:hover {
 
 
 
-nav > section > article > ul {
+#ul-menu {
     display: none;
     position: absolute;
     padding: 0.5vw;
@@ -67,23 +67,23 @@ nav > section > article > ul {
     
 }
 
-nav > section > article > p:hover + ul {
+nav > section > article > p:hover + #ul-menu {
     display: block;
     background-color: #cfc7bc;
 }
 
-ul:hover {
+#ul-menu:hover {
     display: block;
     background-color: #cfc7bc;
 }
 
-nav > section > article > ul > li {
+#ul-menu > li {
     font-size: 1.4vw;
     margin-bottom: 1.1vw;
     font-family: "MedievalSharp", serif;
     cursor: pointer;
 }
 
-nav > section > article > ul > li:hover {
+#ul-menu > li:hover {
     text-decoration: underline  #000
 }
