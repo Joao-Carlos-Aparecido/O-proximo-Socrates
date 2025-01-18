@@ -7,8 +7,10 @@
 		"dev": "vite",
 		"build": "vite build",
 		"preview": "vite preview",
-		"lint": "npx @biomejs/biome check --write .",
-		"lint:format": "npx @biomejs/biome format --write",
+		"lint": "npx @biomejs/biome lint",
+		"lint:fix": "npx @biomejs/biome lint --write",
+		"format": "npx @biomejs/biome format .",
+		"format:fix": "npx @biomejs/biome format --write .",
 		"prepare": "husky",
 		"commitlint": "commitlint --edit"
 	},
