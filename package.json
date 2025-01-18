@@ -1,17 +1,20 @@
 {
-  "name": "o-proximo-socrates",
-  "version": "1.0.0",
-  "description": "Um site de ideia desde antes do nosso calendário até o nosso futuro mais distantes",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite", 
-    "build": "vite build", 
-    "preview": "vite preview" 
-  },
-  "author": "joao-carlos",
-  "license": "ISC",
-  "devDependencies": {
-    "vite": "^6.0.7"
-  }
+	"name": "o-proximo-socrates",
+	"version": "1.0.0",
+	"description": "Um site de ideia desde antes do nosso calendário até o nosso futuro mais distantes",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+    "lint": "npx biome lint",
+    "lint:format": "npx @biomejs/biome format"
+	},
+	"author": "joao-carlos",
+	"license": "ISC",
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"vite": "^6.0.7"
+	}
 }

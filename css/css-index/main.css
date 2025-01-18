@@ -1,73 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
 
 #SobrenosSection {
-    display: flex;
-    width: 100vw;
-    height: 60vw;
-    background-color: #121110;
+	display: flex;
+	width: 100vw;
+	height: 60vw;
+	background-color: #121110;
 }
 main > section > figure {
-    width: 30vw;
-    height: 60vw;
-    
+	width: 30vw;
+	height: 60vw;
 }
 
 main > section > figure > img {
-    margin-left: 2vw;
+	margin-left: 2vw;
 }
 
-
 #imagem-refletindo {
-
-    width: 26vw;
-    
+	width: 26vw;
 }
 
 .floating-box {
-    border-radius: 10px;
-    position: relative;
-    animation: float 5s ease-in-out infinite; /* Define a animação */
+	border-radius: 10px;
+	position: relative;
+	animation: float 5s ease-in-out infinite; /* Define a animação */
 }
 
 @keyframes float {
-    0%, 100% {
-        transform: translateY(0); /* Posição inicial e final */
-    }
-    50% {
-        transform: translateY(14vw); /* Posição ao subir */
-    }
+	0%,
+	100% {
+		transform: translateY(0); /* Posição inicial e final */
+	}
+	50% {
+		transform: translateY(14vw); /* Posição ao subir */
+	}
 }
 
 #SobrenosSection > article {
-    background-color: #cfc7bc;
-    width: 61vw;
-    height: 46vw;
-    position: relative;
-    top: 2.5vw;
-    border-radius: 2vw;
-    padding: 4vw 2vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	background-color: #cfc7bc;
+	width: 61vw;
+	height: 46vw;
+	position: relative;
+	top: 2.5vw;
+	border-radius: 2vw;
+	padding: 4vw 2vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 #SobrenosSection > article > p {
-    font-family: "Cairo", serif;
-    font-size: 2.4vw;
-    margin-bottom: 4vw;
-    text-align: center;
-    line-height: 3.5vw;
+	font-family: "Cairo", serif;
+	font-size: 2.4vw;
+	margin-bottom: 4vw;
+	text-align: center;
+	line-height: 3.5vw;
 }
 
 #SobrenosSection > article > a > button {
-    width: 17vw;
-    height: 4vw;
-    font-family: "MedievalSharp", serif;
-    font-size: 2.4vw;
-    background-color: #121110;
-    color: #cfc7bc;
-    border-radius: 0.7vw;
-    cursor: pointer;
+	width: 17vw;
+	height: 4vw;
+	font-family: "MedievalSharp", serif;
+	font-size: 2.4vw;
+	background-color: #121110;
+	color: #cfc7bc;
+	border-radius: 0.7vw;
+	cursor: pointer;
 }

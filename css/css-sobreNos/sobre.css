@@ -1,99 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
 
 main {
-    background-color: #121110;
-    width: 100vw;
-    height: 90vw;
+	background-color: #121110;
+	width: 100vw;
+	height: 90vw;
 }
 
 main > section {
-    width: 100vw;
-    height: 90vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	width: 100vw;
+	height: 90vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #SobreNos {
-    width: 90vw;
-    height: 70vw;
-    background-color: #cfc7bc;
-    border-radius: 3vw;
-    padding: 3vw 2vw;
-    box-sizing: border-box;
-    margin-bottom: 3vw;
+	width: 90vw;
+	height: 70vw;
+	background-color: #cfc7bc;
+	border-radius: 3vw;
+	padding: 3vw 2vw;
+	box-sizing: border-box;
+	margin-bottom: 3vw;
 }
 
 #SobreNos > h1 {
-    font-family: "MedievalSharp", serif;
-    font-size: 2.3vw;
+	font-family: "MedievalSharp", serif;
+	font-size: 2.3vw;
 }
 
 #SobreNos > p {
-    font-family: "Cairo", serif;
-    font-size: 1.8vw;
-    text-indent: 2vw;
-    margin-top: 1.2vw;
+	font-family: "Cairo", serif;
+	font-size: 1.8vw;
+	text-indent: 2vw;
+	margin-top: 1.2vw;
 }
 
 /*contato*/
 
 main > section {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 #Contato {
-    background-color: #cfc7bc;
-    width: 60vw;
-    height: 15vw;
-    border-radius: 2vw;
+	background-color: #cfc7bc;
+	width: 60vw;
+	height: 15vw;
+	border-radius: 2vw;
 }
 
 #Contato > h1 {
-    margin-left: 2vw;
-    font-family: "MedievalSharp", serif;
-    font-size: 2.3vw;
+	margin-left: 2vw;
+	font-family: "MedievalSharp", serif;
+	font-size: 2.3vw;
 }
 
 #Contato > section {
-    width: 60vw;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    gap: 20vw;
+	width: 60vw;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	gap: 20vw;
 }
 
 #Contato > section > article {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 #Contato > section > article > p {
-    font-size: 2.3vw;
-    font-family: "Cairo", serif;
-
-
+	font-size: 2.3vw;
+	font-family: "Cairo", serif;
 }
 
 #GitHub {
-    background-color: #000000;
- 
+	background-color: #000000;
 }
 
 #LinkedIn {
-    background-color: #0066c8;
+	background-color: #0066c8;
 }
 
 #Contato > section > article > button {
-    display: flex;
-    align-items: center;
-    gap: 1vw;
+	display: flex;
+	align-items: center;
+	gap: 1vw;
 }
 
 #Contato > section > article > button > p {
-    font-family: "Cairo", serif;
-    font-size: 1.3vw;
-    color: white;
+	font-family: "Cairo", serif;
+	font-size: 1.3vw;
+	color: white;
 }

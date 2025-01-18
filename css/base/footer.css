@@ -1,50 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
 
 footer {
-    width: 100vw;
-    height: 18vw;
-    background-color: #cfc7bc;
-    display: flex;
-    gap: 8vw;
-    padding-top: 3vw;
-    padding-left: 2vw;
+	width: 100vw;
+	height: 18vw;
+	background-color: #cfc7bc;
+	display: flex;
+	gap: 8vw;
+	padding-top: 3vw;
+	padding-left: 2vw;
 }
 
 footer > section > p {
-    font-size: 2vw;
-    font-family: "MedievalSharp", serif;
-    margin-bottom: 1.6vw;
+	font-size: 2vw;
+	font-family: "MedievalSharp", serif;
+	margin-bottom: 1.6vw;
 }
 
 footer > section > ul {
-    list-style: none;
+	list-style: none;
 }
 
 footer > section > ul > li {
-    font-family: "Cairo", serif;
-    font-size: 1.6vw;
-    line-height: 2.6vw;
-    cursor: pointer;
-    color: black;
-    
+	font-family: "Cairo", serif;
+	font-size: 1.6vw;
+	line-height: 2.6vw;
+	cursor: pointer;
+	color: black;
 }
 
 footer > section > ul > li > a {
-    font-family: "Cairo", serif;
-    font-size: 1.6vw;
-    line-height: 2.6vw;
-    cursor: pointer;
-    color: black;
-    text-decoration: none; 
-    color: inherit;
+	font-family: "Cairo", serif;
+	font-size: 1.6vw;
+	line-height: 2.6vw;
+	cursor: pointer;
+	color: black;
+	text-decoration: none;
+	color: inherit;
 }
 
 footer > section > ul > li:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 footer > figure > img {
-    width: 13vw;
+	width: 13vw;
 }
