@@ -53,7 +53,7 @@ npm run lint
 2. O seguinte comando verifica e formata os arquivos
 
 ```bash
-npm run lint:format
+npm run format
 ```
 
 ## 🛠️ Construído com
