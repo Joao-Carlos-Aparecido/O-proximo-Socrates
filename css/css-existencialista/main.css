@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+
+:root {
+    --cor-escura: #121110; 
+    --cor-clara: #cfc7bc; 
+
+    --texto-old:  "MedievalSharp", serif;
+    --texto-atual: "Cairo", serif;
+}
+
+main {
+    background-color: var(--cor-escura);
+    width: 100vw;
+
+}
+
+#carts {
+
+    display: flex;
+    flex-wrap: wrap;
+
+    column-gap: 5vw;
+    
+}
+
+.cart {
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    width: 20vw;
+	height: 20vw;
+	box-sizing: border-box;
+	border: 1vw solid var(--cor-clara);
+	border-radius: 1.5vw;
+
+}
+
+.cart > figure {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.cart > figure > img {
+    width: 17vw;
+    height: 16vw;
+    margin-top: 1vw;
+    
+}
+
+
+
+#article-texto {
+    width: 18vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgba(0, 0, 0, 0.832);
+    position: relative;
+    top: -2vw;
+}
+
+#article-texto > a {
+    text-decoration: none
+}
+
+#article-texto > a > p {
+    font-family: var(--texto-old);
+    font-size: 1.2vw;
+    color: white;
+}

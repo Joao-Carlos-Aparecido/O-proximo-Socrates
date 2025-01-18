@@ -51,11 +51,16 @@
 	justify-content: center;
 }
 
-.cart > figure > article > p {
-	color: white;
-	font-family: "MedievalSharp", serif;
-	font-size: 1.6vw;
-	font-weight: 500;
+.cart > figure > article > a {
+    list-style: none;
+}
+
+
+.cart > figure > article > a > p {
+    color: white;
+    font-family: "MedievalSharp", serif;
+    font-size: 1.6vw;
+    font-weight: 500;
 }
 
 #cart1 > figure > img {
@@ -168,12 +173,14 @@
 	list-style: none;
 }
 
-#article-texto3:hover > p {
-	margin-bottom: 1vw;
-	text-align: center;
-	width: 18vw;
-	height: 7vw;
-	background-color: rgba(0, 0, 0, 0.832);
+
+
+#article-texto3:hover > a > p {
+    margin-bottom: 1vw;
+    text-align: center;
+    width: 18vw;
+    height: 2vw;
+    background-color: rgba(0, 0, 0, 0.832);
 }
 
 #article-texto3:hover > ul {
@@ -233,3 +240,61 @@
 	height: 14vw;
 	background-color: rgba(0, 0, 0, 0.314);
 }
+
+
+/*////////////////////////////////////////////////////////BUSCA///////////////////////////////////////////////*/
+
+#Buscar {
+	padding-top: 3vw;
+	padding-bottom: 3vw;
+	width: 100vw;
+	height: 10vw;
+	background-color: #121110;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+#Buscar > button {
+
+	border: 1vw solid #cfc7bc;
+	border-radius: 1.5vw;
+	background-color: #121110;
+	display: flex;
+	width: 19vw;
+	height: 9vw;
+	align-items: center;
+	cursor: pointer;
+
+}
+
+#Buscar > button > P {
+	font-family: "MedievalSharp", serif;
+	font-size: 2vw;
+	color: #cfc7bc;
+	margin-left: 2vw;
+}
+
+#Buscar > button > img {
+	width: 6vw;
+	height: 6vw;
+	margin-left: 2vw;
+}
+
+#Buscar > button:hover > img {
+	animation: rotate30 2s linear infinite;
+
+}
+
+@keyframes rotate30 {
+	0% {
+	  transform: rotate(0deg);
+	}
+	50% {
+	  transform: rotate(-40deg);
+	}
+	100% {
+	  transform: rotate(0deg);
+	}
+  }
