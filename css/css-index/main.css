@@ -19,6 +19,12 @@ main > section > figure > img {
 }
 
 
+#imagem-refletindo {
+
+    width: 26vw;
+    
+}
+
 .floating-box {
     border-radius: 10px;
     position: relative;
