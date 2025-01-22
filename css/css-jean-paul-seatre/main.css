@@ -15,9 +15,192 @@
 main {
     width: 100vw;
     background-color: var(--cor-escura);
+    display: flex;
+    gap: 3vw;
+}
+
+/*parte 1*/
+
+#parte1 {
+    position: relative;
+    top: 4vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4vw;
+    margin-bottom: 6vw;
 }
 
 /*Imagem autor*/
 #Imagem-autor {
-    
+    display: flex;
+    width: 60vw;
+    height: 20vw;
+    box-sizing: border-box;
+	border: 1vw solid var(--cor-clara);
+	border-radius: 1.5vw;
+}
+
+#Imagem-autor > img {
+    width: 22vw;
+    height: 16vw;
+}
+
+#Imagem-autor > article {
+    height: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Imagem-autor > article > h1 {
+    color: var(--cor-clara);
+    font-family: var(--texto-old);
+    font-size: 3vw;
+}
+
+#Imagem-autor > article > p {
+    color: white;
+    font-family: var(--texto-old);
+    font-size: 1.3vw;
+}
+
+/*Sobre*/ 
+#Sobre {
+    box-sizing: border-box;
+	border: 1vw solid var(--cor-clara);
+	border-radius: 1.5vw;
+    width: 60vw;
+    padding: 2vw 4vw;
+
+}
+
+#Sobre > h2 {
+    font-family: var(--texto-old);
+    font-size: 2vw;
+    color: var(--cor-clara);
+}
+
+#Sobre > p {
+    font-family: var(--texto-atual);
+    font-size: 1.6vw;
+    color: white;
+}
+
+/*Frases*/
+
+#Frases {
+    width: 60vw;
+}
+
+#Frases > h1 {
+    color: var(--cor-clara);
+    font-family: var(--texto-old);
+    font-size: 3vw;
+    margin-left: 2.5vw;
+    margin-bottom: 3vw;
+}
+
+#Frases > article {
+    border-bottom: 0.5vw solid var(--cor-clara);
+    margin-bottom: 3vw;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 9vw;
+}
+
+#Frases > article > figure  {
+    position: relative;
+    top: -5vw;
+    width: 7vw;
+    background: url('../../imagem/icones/favoritar-new.png');
+    width: 12vw;
+    height: 8vw;
+    background-size: 7vw;
+    background-repeat: no-repeat;
+}
+#Frases > article > figure:hover  {
+    position: relative;
+    top: -5vw;
+    width: 7vw;
+    background: url('../../imagem/icones/favoritado.png');
+    width: 12vw;
+    height: 8vw;
+    background-size: 7vw;
+    background-repeat: no-repeat;
+}
+
+#Frases > article > p {
+    width: 78vw;
+    color: var(--cor-clara);
+    font-family: var(--texto-atual);
+    font-size: 2.8vw;
+    margin-left: 2vw;
+    margin-bottom: 3vw;
+}
+
+/*parte 2*/
+
+#parte2 {
+    position: relative;
+    top: 4vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4vw;
+    margin-bottom: 6vw;
+}
+
+/*Biografia*/
+#Biografia {
+    box-sizing: border-box;
+	border: 1vw solid var(--cor-clara);
+	border-radius: 1.5vw;
+    width: 34vw;
+    height: 20vw;
+}
+
+#Biografia > h2 {
+    margin: 2vw;
+    color: var(--cor-clara);
+    font-family: var(--texto-old);
+    font-size: 3.4vw;
+}
+
+#Biografia > p {
+    margin: 2vw;
+    font-family: var(--texto-atual);
+    color: white;
+    font-size: 2.4vw;
+}
+
+#Biografia > p > a {
+
+    font-family: var(--texto-old);
+    color: var(--cor-clara);
+    font-size: 2.4vw;
+}
+
+/*Livro*/
+#Livros {
+    margin-left: 2vw;
+}
+
+#Livros > h2 {
+    margin: 2vw;
+    color: var(--cor-clara);
+    font-family: var(--texto-old);
+    font-size: 3.4vw;
+}
+#Livros > ul > li {
+    margin: 2vw;
+    margin-left: 4vw;
+    color: white;
+    font-family: var(--texto-atual);
+    font-size: 1.6vw;
+}
+
+#Livros > ul > li > a {
+
+    color: var(--cor-clara);
+    font-family: var(--texto-old);
+    font-size: 2vw;
 }
