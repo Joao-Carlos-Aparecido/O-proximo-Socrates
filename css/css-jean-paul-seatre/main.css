@@ -2,17 +2,17 @@
 @import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
 
 :root {
-    --cor-escura: #121110; 
-    --cor-clara: #cfc7bc; 
+	--cor-escura: #121110;
+	--cor-clara: #cfc7bc;
 
-    --texto-old:  "MedievalSharp", serif;
-    --texto-atual: "Cairo", serif;
+	--texto-old: "MedievalSharp", serif;
+	--texto-atual: "Cairo", serif;
 }
-
 
 /*main*/
 
 main {
+
     width: 100vw;
     background-color: var(--cor-escura);
     display: flex;
@@ -204,3 +204,4 @@ main {
     font-family: var(--texto-old);
     font-size: 2vw;
 }
+
