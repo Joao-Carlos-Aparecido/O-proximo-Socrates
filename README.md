@@ -60,7 +60,7 @@ npm run format
 
 - [vite](https://vite.dev/) - Ferramenta de construção de front-end
 - [npm](https://www.npmjs.com/) - Ferramenta de gestão de dependências
-- [biomejs](https://biomejs.dev/pt-br/) - Ferramenta para formata código, verifique erros (linter)
+- [biomejs](https://biomejs.dev/pt-br/) - Ferramenta de linting e formatação de código
 
 ## Contribuidores
 
