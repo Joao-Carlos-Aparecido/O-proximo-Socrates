@@ -58,9 +58,9 @@ npm run format
 
 ## 🛠️ Construído com
 
-- [vite](https://vite.dev/) - ferramenta de construção de front-end
-- [npm](https://www.npmjs.com/) - Gerenciador de Dependência
-- [biomejs](https://biomejs.dev/pt-br/) - Usada para gerar RSS
+- [vite](https://vite.dev/) - Ferramenta de construção de front-end
+- [npm](https://www.npmjs.com/) - Ferramenta de gestão de dependências
+- [biomejs](https://biomejs.dev/pt-br/) - Ferramenta para formata código, verifique erros (linter)
 
 ## Contribuidores
 
